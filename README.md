@@ -15,6 +15,10 @@ Create an empty database named `AI_Travel_Agent`, then run the SQL script from `
 ```bash
 cd backend/TravelAssistant.Api
 
+AI_Travel_Assitant\AI_Travel_Agent_Source\AI_Travel_Agent_Source$>
+
+dotnet restore backend\TravelAssistant.Api\TravelAssistant.Api.csproj --configfile NuGet.Config --force --no-cache
+
 dotnet restore
 
 dotnet user-secrets init
